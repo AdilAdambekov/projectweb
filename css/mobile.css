@@ -1,0 +1,138 @@
+@media(max-width: 1250px){
+	.block1 h1{
+		font-size: 35px;
+	}
+	.block1 h2{
+		font-size: 15px;
+	}
+	.block1 iframe{
+		width: 450px;
+	}
+}
+
+
+@media(max-width: 1100px){
+	.block1{
+		height: auto;
+		padding-bottom: 35px;
+	}
+	.block1 iframe{
+		width: 70%;
+		height: 450px;
+	}
+	.block1 h1{
+		text-align: center;
+	}
+	.block1 h2{
+		text-align: center;
+	}
+	.block1 article{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 65px;
+	}
+	.block1 section{
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+	.block5{
+		text-align: center;
+	}
+	.block5 textarea{
+		margin: 0 auto;
+	}
+	.block5 input{
+		margin: 0 auto;
+	}
+	.block5 .redLine{
+		margin-left: 340px;
+		width: 150px;
+	}
+}
+
+@media(max-width: 860px) {
+	.block3 section{
+		display: block;
+		align-items: center;	
+	}
+	.block4 h2{
+		font-size: 21px;
+	}
+	.block5{
+		text-align: left;
+	}
+	.block5 textarea{
+		margin-left: 30px;
+	}
+	.block5 input{
+		margin-left: 30px;
+	}
+	.block5 .redLine{
+		margin-left: 180px;
+		width: 100px;
+	}
+	.block5 h4{
+		margin-left: 20px;
+	}
+	.block5 form input[type=text]:first-child{
+	margin-right: -10px;
+	}
+}
+@media(max-width: 700px) {
+	header{
+		/*display: none;*/
+		display: none;
+	}
+	.sp{
+		margin-top: 30px;
+		width: 40px;
+		height: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.sp nav{
+		width: 100%;
+		height: 4px;
+		background: green;
+	}
+	.block1 h1{
+		font-size: 23px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+	.block1 iframe{
+		height: 230px;
+	}
+	.block3 h1{
+		font-size: 21px;
+	}
+	.block3 ul{
+		flex-direction: column;
+		margin-right: 970px;
+	}
+	.block3 li{
+		margin-right: 350px;
+	}
+	.block3 section nav{
+		margin-left: 140px; 
+	}
+	.block3 article h3{
+		font-size: 21px;
+		margin-left: 100px;
+	}
+	.block3 article h4{
+		width: 50%;
+		margin-left: 40px;
+	}
+	.block3 .redLine{
+		margin-left: 190px;
+	}
+	.block5 article h3{
+		font-size: 21px;
+		margin-left: 130px;
+	}
+}

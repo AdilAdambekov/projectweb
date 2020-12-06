@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Полтора Повара</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="shortuct icon" href = "img/значок-вектора-шеф-повара-битника-91655075-removebg-preview.png">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+      new WOW().init();
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+</head>
+
+<body class="animate__animated animate__fadeIn" data-wow-duration="50s">
+	<!-- <div class="mask">
+		<div class="middle">
+			<div class="bar bar1"></div>			
+			<div class="bar bar2"></div>		
+			<div class="bar bar3"></div>			
+			<div class="bar bar4"></div>			
+			<div class="bar bar5"></div>			
+			<div class="bar bar6"></div>			
+			<div class="bar bar7"></div>			
+			<div class="bar bar8"></div>
+		</div>
+	</div>
+
+	<script>
+		let mask = document.quareSelector('.mask');
+		window.addEventListener('load', () => {
+			mask.classList.add('hide');
+			setTimeout(() => {
+				mask.remove();
+			}, 600);
+		});
+	</script> -->
+
+
+	<div class="block1">
+		<div class="container">
+		<header>
+			<menu>
+			<li><a href="index.html" onclick="slowScroll('body')">Главная</a></li>	
+			<li><a href="#block3" onclick="slowScroll('.block3')">Портфолио</a></li>
+			<li><a href="a" onclick="slowScroll('.block7')">Сертификаты</a></li>
+			<li><a href="" onclick="slowScroll('.block6')">Цены</a></li>	
+			<li><a href="#block5" onclick="slowScroll('.block8')">Контакты</a></li>	
+			</menu>
+		</header>
+		<div class="sp">
+			<nav></nav>
+			<nav></nav>
+			<nav></nav>
+		</div>
+		<section>
+			<article class="animate__animated animate__bounceInLeft">
+				<h1>Полтора <br> повара</h1>
+				<h2>Наши кулинарные курсы подходят как новичкам, так и <br> опытным поварам, так как мы делим группы по уровню <br>их навыков. Все практические занятия проходят с <br>соблюдением техники безопасности. Для новичков обучение <br> начинается с азов, и постепенно, набивая руку и <br>приобретая опыт, они начинают удивлять кулинарными <br>шедеврами.</h2>
+				<!-- <button>Contact us</button> -->
+			</article>
+			<iframe width="956" height="538" src="https://www.youtube.com/embed/r6iNXKvq1G4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		</div>
+	</div>
+
+	<div class="block3">
+		<h1  id="block3">Интересные мероприятия</h1>
+		<h2>Вкусные события в нашей школе</h2>
+		<div class="redLine"></div>
+		<div class="nadpisi">
+			<a class="navigation" href="#" data-filter="all">Все</a>
+			<a class="navigation" href="#" data-filter="devichnik">Девичники и Мальчишники</a>
+			<a class="navigation" href="#" data-filter="birthday">Дни Рождения</a>
+			<a class="navigation" href="#" data-filter="school">Праздники</a>
+		</div>
+
+		<div class="fotki">
+			<div class="work" data-cat="school">
+				<img class="tort" src="img/праздник.jpg">
+			</div>
+			<div class="work"data-cat="birthday">
+				<img class="tort" src="img/birthday.jpeg">
+			</div>
+			<div class="work"data-cat="devichnik">
+				<img class="tort" src="img/девичник.jpg">
+			</div>
+			<div class="work"data-cat="birthday">
+				<img class="tort" src="img/birthday2.jpg">
+			</div>
+			<div class="work"data-cat="devichnik">
+				<img class="tort" src="img/девичник2.jpg">
+			</div>
+			<div class="work"data-cat="devichnik">
+				<img class="tort" src="img/мальчишник.jpg">
+			</div>
+			<div class="work"data-cat="school">
+				<img class="tort" src="img/праздник2.jpg">
+			</div>
+			<div class="work"data-cat="birthday">
+				<img class="tort" src="img/birthday3.jpg">
+			</div>
+		</div>
+
+		<article>
+			<h3>Скидка на обучение</h3>
+			<h4>Если вы являетесь студентом или многодетной семьей, мы предоставляем вам 20% скидку.</h4>
+			<div class="redLine s"></div>
+		</article>
+	</div>
+
+	<div class="block4">
+			<h2>Оставьте свою электронную почту и мы вам отправим купон на скидку</h2>
+
+			<form>
+				<input type="email" placeholder="Ваш Email..." required>
+				<input type="submit" value="ОТПРАВИТЬ">
+			</form>
+	</div>
+
+	<div class="block6">
+		<h3>НАШИ ТАРИФЫ</h3>
+		<div class="redLine"></div>
+		<section>
+			<nav>
+				<h2>Студенческий</h2>
+				<h3>Состоит из 3 - 4 человек <br> 12 занятий в месяц <br> Занятие длится 1 час <br> Продолжительность 4 месяца <br> Цена за 1 месяц: 30 000 тг <br> Пробный урок бесплатный</h3>
+				<button data-fancybox data-src="#modal" href="javascript:;">Записаться</button>
+			</nav>
+			<nav>
+				<h2>Мини группа</h2>
+				<h3>Состоит из 3 - 4 человек <br> 12 занятий в месяц <br> Занятие длится 1 час <br> Продолжительность 4 месяца <br> Цена за 1 месяц: 35 000 тг <br> Пробный урок бесплатный</h3>
+				<button data-fancybox data-src="#modal" href="javascript:;">Записаться</button>	
+			</nav>
+			<nav>
+				<h2>Индивидуальный</h2>
+				<h3>Состоит из 1 человека <br> 12 занятий в месяц <br> Занятие длится 1 час <br> Продолжительность 4 месяца <br> Цена за 1 месяц: 55 000 тг <br> Пробный урок бесплатный</h3>
+				<button data-fancybox data-src="#modal" href="javascript:;">Записаться</button>
+			</nav>
+			<nav>
+				<h2>Ускоренный</h2>
+				<h3>Состоит из 1 человека <br> 36 занятий в целом <br> Занятие длится 1 час Продолжительность 2 месяца <br>Цена за весь курс 135 000 тг <br> Пробный урок бесплатный</h3>
+				<button data-fancybox data-src="#modal" href="javascript:;">Записаться</button>
+			</nav>
+		</section>
+	</div>
+
+	<div class="block7">
+		<h1>НАШИ СЕРТИФИКАТЫ</h1>
+		<h4>В наше время жесткой конкуренции и высоких стандартов, одними словами и заявлениями о ваших навыках далеко не продвинуться. Для этого и необходим <br> сертификат. Сертификат - это уже не пустые слова. Это документальное подтверждение о ваших профессиональных знаниях.</h4>
+		<div class="redLine" style="margin-bottom: 50px;"></div>
+		<img src="img/DESIGN.png" width="400px" style="margin-right: 20px;">
+		<img src="img/web_programming.png" width="400px">
+	</div><br><br><br>
+
+
+	<div class="block5">
+		<article>
+			<h3 id="block5">Свяжитесь с нами</h3>
+			<h4>Мы перезвоним вам в ближайшее время и ответим на них:)</h4>
+			<div class="redLine s"></div>
+		</article>
+
+		<form>
+			<div>
+			<input type="text" placeholder="Имя" required>
+			<input type="email" placeholder="Ваш Mail" required>
+			</div>
+			<textarea placeholder="Пишите ваше сообщение здесь.."></textarea>
+			<input type="submit" value="ОТПРАВИТЬ">
+		</form><br><br>
+
+	</div>
+
+	<div class="block8" id="demo">
+		<h2>Где проходит обучение</h2>
+		<div class="redLine"></div>
+
+		<div class="vmeste">
+		<div id="map"></div>
+
+		<div class="contacts">
+			<h6>+7 (747) 277-99-99</h6><br>
+			<h3>
+				Астана<br>
+				ЖК Экспо Плаза<br>
+				ул Улы Дала 8, блок С<br><br>
+				ЖК Dream City<br>
+				Мангилик Ел 47, блок F<br><br>
+				ЖК Ботанический Бульвар<br>
+				Сауран 34<br>
+			</h3>
+		</div>
+		</div>
+	</div>
+
+	<div class="block9">
+		<h5>Все права защищены 2015 © Gourmet</h5>
+
+		<div class="official">
+		<img src="img/strelka.png" width="150px" height="120px">
+		<img src="img/значок-вектора-шеф-повара-битника-91655075-removebg-preview.png" width="80px" height="80px" style="margin-top: 20px;">
+		<img src="img/strelka.png" width="150px" height="120px">
+		</div>
+
+		<h5>Сделано в APPAZOVDESIGN & ANGRYCODE</h5>
+	</div>
+
+	<div id="modal">
+      <form action="" method="POST">
+      <input type="text" name="user_name" placeholder="Ваше имя" required>
+      <input type="tel" name="user_phone" placeholder="Ваш телефон" required>
+      <input type="submit" value="Отправить">
+    </form>
+    </div>
+
+	<script src="js/script.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/sort.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="форма обратной связи/contactform.js"></script>
+</body>
+</html>
